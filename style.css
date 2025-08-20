@@ -1,3 +1,67 @@
 body {
   background-image: url("/asset/drippy\ black.jpeg");
 }
+/* CONTACT SECTION */
+.contact {
+  padding: 3rem 2rem;
+  background-color: #f4f4f4;
+  text-align: center;
+}
+
+.contact h2 {
+  font-size: 2rem;
+  margin-bottom: 1rem;
+  font-weight: 700;
+}
+
+.contact p {
+  margin-bottom: 2rem;
+  color: #555;
+}
+
+.contact form {
+  max-width: 600px;
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.contact input,
+.contact textarea {
+  width: 100%;
+  padding: 0.8rem;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  font-family: inherit;
+}
+
+.contact button {
+  align-self: center;
+  cursor: pointer;
+}
+/* FOOTER */
+footer {
+  background-color: #1a1a1a;
+  color: white;
+  text-align: center;
+  padding: 1.5rem 1rem;
+  font-size: 0.9rem;
+}
+
+footer .social-icons {
+  margin-top: 1rem;
+}
+
+footer .social-icons a {
+  color: blue;
+  margin: 0 10px;
+  font-size: 1.2rem;
+  display: inline-block;
+  transition: color 0.3s, transform 0.3s;
+}
+
+footer .social-icons:hover {
+  color: #ffd84d;
+  transform: scale(1.2);
+}
