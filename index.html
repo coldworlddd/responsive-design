@@ -1,0 +1,223 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Coldworld's Store</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+
+  <body class="text-gray-800 bg-white">
+    <!-- Header with navigation -->
+    <header class="text-black p-4 top-0 z-50">
+      <div class="container mx-auto flex items-center justify-between">
+        <h1 class="text-2xl font-bold">Coldworld's Store</h1>
+        <nav class="hidden md:flex space-x-6">
+          <a href="#products" class="hover:underline">Products</a>
+          <a href="#about" class="hover:underline">About</a>
+          <a href="#contact" class="hover:underline">Contact</a>
+        </nav>
+        <!-- Mobile menu button -->
+        <button id="menu-btn" class="md:hidden">
+          <svg
+            class="w-6 h-6"
+            fill="none"
+            stroke="currentColor"
+            stroke-width="2"
+            viewBox="0 0 24 24"
+            stroke-linecap="round"
+            stroke-linejoin="round"
+          >
+            <path d="M4 6h16M4 12h16M4 18h16" />
+          </svg>
+        </button>
+      </div>
+      <!-- Mobile dropdown menu -->
+      <div id="menu" class="hidden md:hidden px-4 pt-2 pb-4">
+        <a href="#products" class="block py-1">Products</a>
+        <a href="#about" class="block py-1">About</a>
+        <a href="#contact" class="block py-1">Contact</a>
+      </div>
+    </header>
+    <!-- Header with navigation ends-->
+
+    <!-- Hero section -->
+    <section class="text-center py-20">
+      <h2 class="text-4xl font-bold mb-4 text-white">
+        Welcome to coldworld's Store
+      </h2>
+      <p class="text-lg mb-6 text-white">
+        Explore the latest in style and comfort with our trending products.
+      </p>
+      <a
+        href="#products"
+        class="bg-blue-600 text-white px-6 py-3 rounded hover:bg-blue-500 rounded-lg"
+        >Shop Now</a
+      >
+    </section>
+    <!-- Hero section ends-->
+
+    <!-- Products Section -->
+    <section id="products" class="py-16 px-6 md:px-16">
+      <h3 class="text-3xl font-bold text-center mb-10 text-white">
+        Our Top Picks
+      </h3>
+      <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 gap-8">
+        <!-- Product Card 1 -->
+        <div class="bg-white shadow rounded overflow-hidden text-center p-4">
+          <img
+            src="https://i.pinimg.com/736x/ba/dd/82/badd82c3e216ea14d3b6bdfbf1df1f51.jpg"
+            alt="Product 1"
+            class="mx-auto mb-4"
+          />
+          <h4 class="text-xl font-semibold mb-2">Classic Sneakers</h4>
+          <p class="text-sm text-gray-600 mb-3">
+            Stylish and comfortable sneakers for all-day wear.
+          </p>
+          <button
+            class="bg-blue-600 text-white px-4 py-2 rounded hover:bg-blue-500"
+          >
+            Shop Now
+          </button>
+        </div>
+        <!-- Product Card 2 -->
+        <div class="bg-white shadow rounded overflow-hidden text-center p-4">
+          <img
+            src="https://i.pinimg.com/1200x/e1/4a/7e/e14a7ebabdd7545e25c38d78922fd8cd.jpg"
+            alt="Product 2"
+            class="mx-auto mb-4"
+          />
+          <h4 class="text-xl font-semibold mb-2">Leather Backpack</h4>
+          <p class="text-sm text-gray-600 mb-3">
+            Durable leather backpack ideal for work or travel.
+          </p>
+          <button
+            class="bg-blue-600 text-white px-4 py-2 rounded hover:bg-blue-500"
+          >
+            Shop Now
+          </button>
+        </div>
+        <!-- Product Card 3 -->
+        <div class="bg-white shadow rounded overflow-hidden text-center p-4">
+          <img
+            src="https://i.pinimg.com/736x/74/a6/3f/74a63f2a28a3e8c330faab4e93312883.jpg"
+            alt="Product 3"
+            class="mx-auto mb-4"
+          />
+          <h4 class="text-xl font-semibold mb-2">Apple Smart Watch</h4>
+          <p class="text-sm text-gray-600 mb-3">
+            Track fitness, calls, and messages on the go.
+          </p>
+          <button
+            class="bg-blue-600 text-white px-4 py-2 rounded hover:bg-blue-500"
+          >
+            Shop Now
+          </button>
+        </div>
+        <!-- Product Card 4 -->
+        <div class="bg-white shadow rounded overflow-hidden text-center p-4">
+          <img
+            src="https://i.pinimg.com/736x/72/29/64/722964845f0dc6cf72ad7f44e154f920.jpg"
+            alt="Product 4"
+            class="mx-auto mb-4"
+          />
+          <h4 class="text-xl font-semibold mb-2">BeatbyDre Wireless Earbuds</h4>
+          <p class="text-sm text-gray-600 mb-3">
+            Crystal clear sound with noise cancellation.
+          </p>
+          <button
+            class="bg-blue-600 text-white px-4 py-2 rounded hover:bg-blue-500"
+          >
+            Shop Now
+          </button>
+        </div>
+        <!-- Product Card 5 -->
+        <div class="bg-white shadow rounded overflow-hidden text-center p-4">
+          <img
+            src="https://i.pinimg.com/1200x/96/5d/73/965d736b0612ba8d0e7145a487df1cc7.jpg"
+            alt="Product 5"
+            class="mx-auto mb-4"
+          />
+          <h4 class="text-xl font-semibold mb-2">Denim Jacket.</h4>
+          <p class="text-sm text-gray-600 mb-3">
+            Classic denim jacket perfect for layering any outfit.
+          </p>
+          <button
+            class="bg-blue-600 text-white px-4 py-2 rounded hover:bg-blue-500"
+          >
+            Shop Now
+          </button>
+        </div>
+        <!-- Product Card 6 -->
+        <div class="bg-white shadow rounded overflow-hidden text-center p-4">
+          <img
+            src="https://i.pinimg.com/736x/bb/fa/8a/bbfa8ad43687bd4d6b927e07cbf1b258.jpg"
+            alt="Product 6"
+            class="mx-auto mb-4"
+          />
+          <h4 class="text-xl font-semibold mb-2">Fitness Tracker</h4>
+          <p class="text-sm text-gray-600 mb-3">
+            Monitor your health and activity seamlessly.
+          </p>
+          <button
+            class="bg-blue-600 text-white px-4 py-2 rounded hover:bg-blue-500"
+          >
+            Shop Now
+          </button>
+        </div>
+        <!-- Product Card 7 -->
+        <div class="bg-white shadow rounded overflow-hidden text-center p-4">
+          <img
+            src="https://i.pinimg.com/1200x/53/19/67/531967d64a6e5f1ae503cb817f529837.jpg"
+            alt="Product 7"
+            class="mx-auto mb-4"
+          />
+          <h4 class="text-xl font-semibold mb-2">Sunglasses</h4>
+          <p class="text-sm text-gray-600 mb-3">
+            UV-protected stylish shades for any occasion.
+          </p>
+          <button
+            class="bg-blue-600 text-white px-4 py-2 rounded hover:bg-blue-500"
+          >
+            Shop Now
+          </button>
+        </div>
+        <!-- Product Card 8 -->
+        <div class="bg-white shadow rounded overflow-hidden text-center p-4">
+          <img
+            src="https://i.pinimg.com/1200x/0d/7b/f0/0d7bf08a0c37e4fa4ac2886bdb22c7a2.jpg"
+            alt="Product 8"
+            class="mx-auto mb-4"
+          />
+          <h4 class="text-xl font-semibold mb-2">Water Bottle</h4>
+          <p class="text-sm text-gray-600 mb-3">
+            Reusable and eco-friendly hydration on the go.
+          </p>
+          <button
+            class="bg-blue-600 text-white px-4 py-2 rounded hover:bg-blue-500"
+          >
+            Shop Now
+          </button>
+        </div>
+      </div>
+    </section>
+
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+    <!-- Products Section ends-->
+
+    <!-- Footer section -->
+    <footer class="bg-gray-200 text-black text-center p-6 mt-10">
+      <p>&copy; 2025 coldworld's Store. All rights reserved.</p>
+    </footer>
+    <!-- Footer section ends -->
+
+    <!-- Mobile Menu Script -->
+    <script>
+      const btn = document.getElementById("menu-btn");
+      const menu = document.getElementById("menu");
+      btn.addEventListener("click", () => {
+        menu.classList.toggle("hidden");
+      });
+    </script>
+  </body>
+</html>
